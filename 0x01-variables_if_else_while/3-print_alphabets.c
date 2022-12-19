@@ -1,6 +1,15 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 #include <stdlib.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: 'see here'
+ *
+ * Return: 0 (Success)
+ */
+
 int main(void)
 
 {
