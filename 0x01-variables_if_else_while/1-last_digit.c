@@ -4,6 +4,14 @@
 
 #include <time.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: 'let's see'
+ *
+ * Return: 0 (Success)
+ */
+
 int main(void)
 
 {
