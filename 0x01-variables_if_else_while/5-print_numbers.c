@@ -1,8 +1,17 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 #include <time.h>
 
 #include <stdlib.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: 'aah'
+ *
+ * Return: 0 (Success)
+ */
+
 int main(void)
 
 {
@@ -17,7 +26,7 @@ int main(void)
 
 		printf("%i", i);
 
-									}
+		}
 
 		putchar('\n');
 
