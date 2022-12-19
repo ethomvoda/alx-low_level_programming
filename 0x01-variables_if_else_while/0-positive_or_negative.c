@@ -3,33 +3,37 @@
 #include <stdlib.h>
 
 #include <time.h>
-
 /**
- * main - Entry point
- *
- * Description: 'Let's see'
- *
- * Return: 0 (Success)
+ *main - main block
+ * Description: prints "is it positive or negative"
+ * Return: 0
  */
-
 int main(void)
-{
-	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n < 2)
-	{
+{
+
+		int n;
+
+
+  
+		srand(time(0));
+
+		n = rand() - RAND_MAX / 2;
+
+
+
+		if (n > 0)
+
+		printf("%d is positive\n", n);
+
+		else if (n < 0)
+
 		printf("%d is negative\n", n);
-	}
-	else 
-		if (n = 0)
-		{
-			printf("%d is zero\n", n);
-		}
+
 		else
-		{
-			printf("%d is positive\n", n);
-		}
-	return (0);
+
+		printf("%d is zero\n", n);
+
+		return (0);
+
 }
