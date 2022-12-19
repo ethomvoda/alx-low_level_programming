@@ -1,4 +1,13 @@
 #include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: 'here all along'
+ *
+ * Return: 0 (Success)
+ */
+
 int main(void)
 
 {
