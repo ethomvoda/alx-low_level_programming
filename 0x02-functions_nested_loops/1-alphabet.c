@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
  * Description: 'Print alphabets'
  *
  * Return: 0 (Success)
