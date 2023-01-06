@@ -1,26 +1,33 @@
-#include "main.h"
-
-/*
- * main - Entry point
- *
- * Description: 'Print alphabets 10times'
- *
- * Return: 0 (Success)
- *
+nclude "main.h"
+/**
+ * print_alphabet-this prints a - z
+ * Description: Write a function that prints the alphabet,
+ * in lowercase, followed by a new line.
+ *Return: Always 0.
  */
 
-void print_alphabet_x10(void)
-{
-	unsigned int i;
-	char ch;
 
-	for (i = 0; i < 10; i++)
-	{
-		while (ch <= 'z')
+
+int print_alphabet(void)
+
+{
+
+		char c = 'a';
+
+
+
+		while (c <= 'z')
+
 		{
-			_putchar(ch);
-			ch++;
+
+			_putchar(c);
+
+			c++;
+
 		}
-		_putchar('\n');
-	}
+
+			_putchar('\n');
+
+		return (0);
+
 }
